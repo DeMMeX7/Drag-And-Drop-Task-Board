@@ -7,4 +7,7 @@ export default defineNuxtConfig({
     '@/assets/css/main.css'
   ],
   ssr: false,
+  app: {
+    baseURL: '/Drag-And-Drop-Task-Board/'
+  }
 })
