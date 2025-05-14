@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   app: {
-    baseURL: '/Drag-And-Drop-Task-Board/'
+    baseURL: '/Drag-And-Drop-Task-Board/',
+    buildAssetsDir: '/Drag-And-Drop-Task-Board/_nuxt/'
   }
 })
